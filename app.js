@@ -215,6 +215,16 @@ app.post("/generate-logical-questions", async (req, res) => {
   }
 });
 
+//Sample Get Method
+app.get("/", (req, res) => {
+  res.json({
+    success: 1,
+    message: "This is My First REST API...",
+  });
+});
+
+
+
 // Start the server
 const PORT = 3000;
 app.listen(PORT, () => {
