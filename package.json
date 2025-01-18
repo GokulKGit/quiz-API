@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "webpack",
-    "start": "node app.js"
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
